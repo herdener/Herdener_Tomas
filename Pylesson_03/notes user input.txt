@@ -1,0 +1,23 @@
+More identifiers
+
+We know how to give proper names or "identifiers" in our programs, and that these 
+identifiersshould be both UNIQUE and DESCRIPTIVE.
+there are many “best practice” rules we can follow to make our code readable.
+Example, Identifiers that have 2 or more words can be difficult to read. Since we cant use 
+spaces, starting new words in our identifiers with capital letters helps distinguish the 
+two words. 
+
+
+
+Built-in functions
+
+functions in Phyton define the actions that a program will be capable of.to instruct the
+program to actions, you need to cal the function by a name.We do this by entering the name
+of the function, followed by a set of parentheses ().Example:
+                                          
+                                        functionName()
+
+we are telling Python to run the function called “functionName()”. This function is called
+“call”. By default, Python has a number of “built-in” functions that we will utilize through 
+this course. By far the most useful is the input() function.
+
