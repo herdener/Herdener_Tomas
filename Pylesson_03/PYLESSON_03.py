@@ -42,7 +42,7 @@ print("EX_02")
 height = int(input("please enter your height: "))
 weight = int(input("please enter your weight: "))
 
-BMI = weight  height
+BMI = weight / height
 
 print("your BMI is", BMI)
 
@@ -50,11 +50,15 @@ print("your BMI is", BMI)
 print("EX_03")
 
 
+iceCream = int(input("how many balls of ice cream per cup?: "))
+quantity = int(input("how many cups do you want?: "))               
 
+print("the price of one ball is 1.50")
 
+IceCream = iceCream * quantity
+total = IceCream * 1.50
 
-
-
+print("you buy",IceCream,"balls of ice cream your total is",total,)
 
 
 
