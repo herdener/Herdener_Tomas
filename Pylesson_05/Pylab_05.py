@@ -1,24 +1,32 @@
 import random
 
-player = int(input(random.randit(1, 6))
-computer = int(input(random.randit(1, 6))
+player = random.randint(1, 6)
+computer = random.randint(1, 6)
 
-run rollDice()
-    if player > computer
-    
+def rollDice():
+    global player, computer
+    if player > computer:
+      return "player"
+    if player < computer:
+      return "computer"
 
-print("you rolled a <your roll>")
-print("computer rolled a ,computer's roll>")
-print("the winner is <winner>")
+winner = rollDice()
+
+print("you rolled a", player)
+print("computer rolled a", computer)
+print("the winner is the", winner)
 
 
-               
 
 
 
-             
-               
-             
+
+
+
+
+
+
+
 
 
 

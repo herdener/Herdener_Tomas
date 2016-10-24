@@ -12,16 +12,6 @@ print("if",factor1,"multiply by",factor2,"equals", factor1 * factor2)
 
 print(factor1 * factor2 - factor3)
 
-
-
-
-
-
-
-
-
-
-
-
+print("EX_02")
 
 
